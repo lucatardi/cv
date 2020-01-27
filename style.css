@@ -1,3 +1,7 @@
+:root {
+	--text-secondary-color: #3264a8; 
+  }
+
 html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video {
 border:0;
 font:inherit;
@@ -31,7 +35,7 @@ p {
 
 .mainDetails {
 	padding: 25px 35px;
-	border-bottom: 2px solid #cf8a05;
+	border-bottom: 2px solid #3264a8;
 	background: #ededed;
 }
 
@@ -40,12 +44,14 @@ p {
 	font-weight: 700;
 	font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
 	margin-bottom: -6px;
+	text-transform: uppercase;
 }
 
 #name h2 {
 	font-size: 2em;
 	margin-left: 2px;
 	font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
+	color: var(--text-secondary-color);
 }
 
 #mainArea {
@@ -95,7 +101,7 @@ p {
 }
 
 #contactDetails ul li a:hover { 
-	color: #cf8a05;
+	color: #3264a8;
 }
 
 
@@ -126,7 +132,7 @@ section:last-child {
 	font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
 	font-style: italic;
 	font-size: 1.5em;
-	color: #cf8a05;
+	color: #3264a8;
 }
 
 .sectionContent h2 {
@@ -355,16 +361,15 @@ section:last-child {
 }
 
 .link-download {
-	width: 100%;
-	height: 5vh;
-	background-color: #cf8a05;
+	width: 50px;
+	height: 50px;
+	background-color: #3264a8;
 	display: inline-block;
 	position: fixed;
-	bottom: 0px;
-	color: white;
-	text-decoration: none;
+	bottom: 20px;
+	right: 20px;
+	padding: 20px;
+	border-radius: 50%;
 	text-align: center;
-	padding-top: 10px;
-	font-size: 30px;
-	font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
 }
+
