@@ -136,6 +136,15 @@ article {
 	width: 72.5%;
 }
 
+.sectionContent > article {
+	border-bottom: 2px dotted #dedede;
+	padding-bottom: 10px;
+}
+
+.sectionContent > article:last-child {
+	border-bottom: none;
+}
+
 .sectionTitle h1 {
 	font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
 	font-style: italic;
