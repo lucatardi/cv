@@ -249,6 +249,8 @@ article {
 	.sectionTitle {
 		margin-left: -2px;
 		font-size: 1.25em;
+		margin-bottom: 10px;
+		border-bottom: 3px solid var(--text-secondary-color);
 	}
 	
 	.keySkills {
